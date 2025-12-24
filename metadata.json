@@ -1,0 +1,5 @@
+{
+  "name": "ROS Bot Master: Differential Drive Project Hub",
+  "description": "A comprehensive project dashboard for developing and documenting a ROS-controlled differential-drive robot, featuring a BOM manager, ROS command generator, and AI-powered troubleshooting assistant.",
+  "requestFramePermissions": []
+}
