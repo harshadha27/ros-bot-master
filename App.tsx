@@ -95,10 +95,10 @@ const App: React.FC = () => {
                 <div className="inline-block px-3 py-1 bg-cyan-950 border border-cyan-500/30 text-cyan-400 text-[10px] font-black uppercase tracking-widest rounded">
                   Mission Parameters
                 </div>
-                <h2 className="text-4xl font-black text-white leading-tight">Prototyping the Future of <span className="text-cyan-500">Differential Drive</span></h2>
+                <h2 className="text-4xl font-black text-white leading-tight">Forging the Future of <span className="text-cyan-500">Autonomous Locomotion</span></h2>
                 <p className="text-gray-400 text-lg leading-relaxed font-medium">
-                  Designing a robust mobile platform for the ROS hardware track. Engineered for precise 
-                  localization using the <code className="bg-[#161b22] px-2 py-1 rounded text-orange-400 font-mono text-sm border border-[#30363d]">teleop_keyboard</code> protocol.
+                  Engineering a high-performance mobile platform for the ROS hardware track. Optimized for sub-millimeter 
+                  precision using the <code className="bg-[#161b22] px-2 py-1 rounded text-orange-400 font-mono text-sm border border-[#30363d]">teleop_keyboard</code> control stack.
                 </p>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="bg-[#161b22] p-5 rounded-2xl border border-[#30363d] group hover:border-cyan-500/50 transition-colors">
@@ -114,7 +114,7 @@ const App: React.FC = () => {
                   onClick={handleGenerateURDF}
                   className="w-full py-4 bg-cyan-500 hover:bg-cyan-400 text-[#0d1117] rounded-2xl font-black text-sm uppercase tracking-widest transition-all transform active:scale-[0.98] shadow-[0_10px_30px_rgba(6,182,212,0.2)]"
                 >
-                  Initialize URDF Generation
+                  Architect URDF Core
                 </button>
               </div>
               <div className="relative group">
@@ -125,7 +125,7 @@ const App: React.FC = () => {
 
             <section>
               <div className="flex items-center gap-4 mb-6">
-                <h3 className="text-xl font-black text-white uppercase tracking-wider">Advanced Capabilities</h3>
+                <h3 className="text-xl font-black text-white uppercase tracking-wider">Strategic Capabilities</h3>
                 <div className="h-[1px] flex-1 bg-gradient-to-r from-[#30363d] to-transparent"></div>
               </div>
               <div className="bg-orange-500/5 border border-orange-500/30 p-8 rounded-3xl flex items-start gap-6 group hover:bg-orange-500/10 transition-all">
@@ -135,10 +135,10 @@ const App: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-2xl font-black text-orange-200 uppercase tracking-tight">Active SLAM Implementation</h4>
+                  <h4 className="text-2xl font-black text-orange-200 uppercase tracking-tight">Autonomous SLAM Deployment</h4>
                   <p className="text-orange-100/60 text-lg mt-2 leading-relaxed">
-                    Going beyond standard tele-operation. Integrating a high-precision RPLIDAR A1 sensor for 
-                    Real-Time Environment Mapping and Obstacle Avoidance using Gmapping protocols.
+                    Executing beyond standard tele-operation. Integrating advanced RPLIDAR A1 instrumentation for 
+                    dynamic environment mapping and pathfinding via Gmapping protocols.
                   </p>
                 </div>
               </div>
@@ -151,10 +151,10 @@ const App: React.FC = () => {
             <div className="flex justify-between items-end border-b border-[#30363d] pb-8">
               <div>
                 <h2 className="text-3xl font-black text-white uppercase italic tracking-tighter">Inventory <span className="text-cyan-500">Manifest</span></h2>
-                <p className="text-gray-500 font-medium mt-1 uppercase tracking-widest text-[10px]">Procurement and Allocation Log</p>
+                <p className="text-gray-500 font-medium mt-1 uppercase tracking-widest text-[10px]">Strategic Asset Allocation</p>
               </div>
               <div className="text-right">
-                <div className="text-[10px] text-cyan-500/50 font-black uppercase tracking-[0.3em] mb-1">Total Estimated Overhead</div>
+                <div className="text-[10px] text-cyan-500/50 font-black uppercase tracking-[0.3em] mb-1">Total Project Overhead</div>
                 <div className="text-4xl font-black text-cyan-400 font-mono">
                   ${INITIAL_BOM.reduce((acc, curr) => acc + curr.costEstimate, 0).toFixed(2)}
                 </div>
@@ -174,7 +174,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="p-6 bg-[#161b22] rounded-2xl border border-[#30363d] shadow-xl">
-                    <span className="block text-cyan-500 text-[10px] font-black uppercase mb-4 tracking-widest">Input Control Mapping</span>
+                    <span className="block text-cyan-500 text-[10px] font-black uppercase mb-4 tracking-widest">Command Interface Mapping</span>
                     <ul className="text-sm space-y-3 font-bold">
                       <li className="flex items-center justify-between"><span className="text-gray-400 uppercase text-xs">Linear (+)</span> <kbd className="bg-[#21262d] px-3 py-1 rounded border border-[#30363d] text-cyan-400 font-mono shadow-sm">W</kbd></li>
                       <li className="flex items-center justify-between"><span className="text-gray-400 uppercase text-xs">Linear (-)</span> <kbd className="bg-[#21262d] px-3 py-1 rounded border border-[#30363d] text-cyan-400 font-mono shadow-sm">S</kbd></li>
@@ -310,7 +310,7 @@ const App: React.FC = () => {
                   </button>
                </div>
                <div className="flex-1 p-8 bg-[#090b0e] code-font text-xs text-green-400/90 overflow-y-auto whitespace-pre-wrap leading-relaxed">
-                 {urdfOutput || "Run a system generator (e.g., 'URDF Initialization' in Overview) to populate this buffer."}
+                 {urdfOutput || "Run a system generator (e.g., 'Architect URDF' in Overview) to populate this buffer."}
                </div>
             </div>
           </div>
@@ -320,7 +320,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="bg-[#161b22] border-t border-[#30363d] py-6 px-8 text-center">
         <div className="text-[10px] text-gray-600 font-black uppercase tracking-[0.5em]">
-          End of Line • Terminal Session Managed by Gemini Core
+          End of Line • Mission Control for Advanced Robotics Engineering
         </div>
       </footer>
     </div>
